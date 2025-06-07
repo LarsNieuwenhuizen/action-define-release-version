@@ -22,6 +22,12 @@ If there are commits it will always at least be a patch version and create v1.0.
 However, we also see a commit starting with "feat" So this means a feature bump
 So it will give you v1.1.0
 
+## Outputs
+
+- previous_version # The version the action is basing the next version on
+- release_version # The new version
+- bump # Type of bump, either major, minor or patch
+
 ## Usage
 
 A simple workflow example to use this action.
