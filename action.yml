@@ -1,0 +1,12 @@
+name: "Define release version"
+description: "Define the release version based on the latest tag and the following convential commits"
+outputs:
+  previous_version:
+    description: "The previous version"
+  release_version:
+    description: "The release version"
+  bump:
+    description: "The bump type"
+runs:
+  using: "node20"
+  main: "dist/index.js"
