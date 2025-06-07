@@ -4,9 +4,9 @@ import { env } from "process";
 
 try {
   const info = await versioning.getVersionInfo();
-  core.setOutput("previous_version", info.previous);
+  core.setOutput("previous-version", info.previous);
   core.setOutput("bump", info.bumpType);
-  core.setOutput("release_version", info.newVersion);
+  core.setOutput("release-version", info.newVersion);
 
   if (env.GITHUB_ACTIONS === "true") {
     core.summary

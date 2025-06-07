@@ -1,9 +1,9 @@
 name: "Define release version"
 description: "Define the release version based on the latest tag and the following convential commits"
 outputs:
-  previous_version:
+  previous-version:
     description: "The previous version"
-  release_version:
+  release-version:
     description: "The release version"
   bump:
     description: "The bump type"

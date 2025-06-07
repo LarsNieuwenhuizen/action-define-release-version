@@ -28355,9 +28355,9 @@ __nccwpck_require__.r(__webpack_exports__);
 
 try {
     const info = await _modules_versioning__WEBPACK_IMPORTED_MODULE_1__/* .getVersionInfo */ .h();
-    _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("previous_version", info.previous);
+    _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("previous-version", info.previous);
     _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("bump", info.bumpType);
-    _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("release_version", info.newVersion);
+    _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("release-version", info.newVersion);
     if (process__WEBPACK_IMPORTED_MODULE_2__.env.GITHUB_ACTIONS === "true") {
         _actions_core__WEBPACK_IMPORTED_MODULE_0__.summary
             .addHeading("Versioning Information :rocket:")

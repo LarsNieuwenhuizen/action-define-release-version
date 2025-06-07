@@ -24,8 +24,8 @@ So it will give you v1.1.0
 
 ## Outputs
 
-- previous_version # The version the action is basing the next version on
-- release_version # The new version
+- previous-version # The version the action is basing the next version on
+- release-version # The new version
 - bump # Type of bump, either major, minor or patch
 
 ## Usage
@@ -64,7 +64,7 @@ jobs:
 
       - name: Use version
         run: |
-          echo "Version: ${{ steps.version.outputs.release_version }}"
+          echo "Version: ${{ steps.version.outputs.release-version }}"
 ```
 
 The workflow step summary will also show the next version
