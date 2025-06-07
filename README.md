@@ -68,3 +68,10 @@ jobs:
 ```
 
 The workflow step summary will also show the next version
+
+### Reusable workflow
+
+I've also wrapped this action in a reusable workflow.
+That limits the amount of lines you'll need ;)
+
+[The link to the docs](https://github.com/LarsNieuwenhuizen/workflows?tab=readme-ov-file#define-the-next-version-for-your-apps-based-on-commits)
