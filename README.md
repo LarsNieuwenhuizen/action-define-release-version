@@ -30,6 +30,14 @@ So it will give you v1.1.0
 
 ## Usage
 
+Example:
+
+```yaml
+- name: Define version
+  id: version
+  uses: LarsNieuwenhuizen/action-define-release-version@v1
+```
+
 A simple workflow example to use this action.
 Important to note here, in order to actually get the commits and tags we need to checkout the code with tags and commits.
 So add the fetch-depth: 0 and fetch-tags: true to the checkout action. Otherwise the action has nothing to use.
